@@ -622,8 +622,8 @@ importers:
         specifier: workspace:*
         version: link:../engines
       '@prisma/engines-version':
-        specifier: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
-        version: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
+        specifier: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
+        version: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
       '@prisma/fetch-engine':
         specifier: workspace:*
         version: link:../fetch-engine
@@ -649,8 +649,8 @@ importers:
         specifier: workspace:*
         version: link:../pg-worker
       '@prisma/query-engine-wasm':
-        specifier: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
-        version: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
+        specifier: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
+        version: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
       '@snaplet/copycat':
         specifier: 0.17.3
         version: 0.17.3
@@ -868,8 +868,8 @@ importers:
         specifier: workspace:*
         version: link:../debug
       '@prisma/engines-version':
-        specifier: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
-        version: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
+        specifier: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
+        version: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
       '@prisma/fetch-engine':
         specifier: workspace:*
         version: link:../fetch-engine
@@ -905,8 +905,8 @@ importers:
         specifier: workspace:*
         version: link:../debug
       '@prisma/engines-version':
-        specifier: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
-        version: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
+        specifier: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
+        version: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
       '@prisma/get-platform':
         specifier: workspace:*
         version: link:../get-platform
@@ -1098,7 +1098,7 @@ importers:
     dependencies:
       '@opentelemetry/instrumentation':
         specifier: ^0.52.0 || ^0.53.0 || ^0.54.0 || ^0.55.0 || ^0.56.0
-        version: 0.55.0(@opentelemetry/api@1.9.0)
+        version: 0.56.0(@opentelemetry/api@1.9.0)
     devDependencies:
       '@opentelemetry/api':
         specifier: 1.9.0
@@ -1227,8 +1227,8 @@ importers:
         specifier: workspace:*
         version: link:../get-platform
       '@prisma/prisma-schema-wasm':
-        specifier: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
-        version: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
+        specifier: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
+        version: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
       '@prisma/schema-files-loader':
         specifier: workspace:*
         version: link:../schema-files-loader
@@ -1399,8 +1399,8 @@ importers:
         specifier: workspace:*
         version: link:../debug
       '@prisma/engines-version':
-        specifier: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
-        version: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
+        specifier: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
+        version: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
       '@prisma/generator-helper':
         specifier: workspace:*
         version: link:../generator-helper
@@ -1551,8 +1551,8 @@ importers:
   packages/schema-files-loader:
     dependencies:
       '@prisma/prisma-schema-wasm':
-        specifier: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
-        version: 6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69
+        specifier: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
+        version: 6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7
       fs-extra:
         specifier: 11.1.1
         version: 11.1.1
@@ -2644,10 +2644,6 @@ packages:
     engines: {node: '>=10'}
     deprecated: This functionality has been moved to @npmcli/fs
 
-  '@opentelemetry/api-logs@0.55.0':
-    resolution: {integrity: sha512-3cpa+qI45VHYcA5c0bHM6VHo9gicv3p5mlLHNG3rLyjQU8b7e0st1rWtrUn3JbZ3DwwCfhKop4eQ9UuYlC6Pkg==}
-    engines: {node: '>=14'}
-
   '@opentelemetry/api-logs@0.56.0':
     resolution: {integrity: sha512-Wr39+94UNNG3Ei9nv3pHd4AJ63gq5nSemMRpCd8fPwDL9rN3vK26lzxfH27mw16XzOSO+TpyQwBAMaLxaPWG0g==}
     engines: {node: '>=14'}
@@ -2667,12 +2663,6 @@ packages:
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
-
-  '@opentelemetry/instrumentation@0.55.0':
-    resolution: {integrity: sha512-YDCMlaQRZkziLL3t6TONRgmmGxDx6MyQDXRD0dknkkgUZtOK5+8MWft1OXzmNu6XfBOdT12MKN5rz+jHUkafKQ==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': ^1.3.0
 
   '@opentelemetry/instrumentation@0.56.0':
     resolution: {integrity: sha512-2KkGBKE+FPXU1F0zKww+stnlUxUTlBvLCiWdP63Z9sqXYeNI/ziNzsxAp4LAdUcTQmXjw1IWgvm5CAb/BHy99w==}
@@ -2755,19 +2745,19 @@ packages:
     resolution: {integrity: sha512-t2XdOfrVgcF7AW791FtdPS27NyNqcE1SpoXgk3HpziousvUMsJi4Q6NL3JyOBpsMOrvk94749o8yyonvX5quPw==}
     engines: {node: '>=16'}
 
-  '@prisma/engines-version@6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69':
-    resolution: {integrity: sha512-7tw1qs/9GWSX6qbZs4He09TOTg1ff3gYsB3ubaVNN0Pp1zLm9NC5C5MZShtkz7TyQjx7blhpknB7HwEhlG+PrQ==}
+  '@prisma/engines-version@6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7':
+    resolution: {integrity: sha512-IFQDanNOm3q63+F3x6JdEyC70f1wTs2KGqdLtDBamgMCmev5nxaNSGPvkC49IgH8i1HUATV3+RSoj28hXClHSA==}
 
   '@prisma/mini-proxy@0.9.5':
     resolution: {integrity: sha512-0MLaxUjGbZGJGx9fIy1kbAH65hcZHCP6yes8xCTVcWumo64uzAxuvZdf5l1EPCZrDnj+iZNAy0U364oOAN+gXQ==}
     engines: {node: '>=16'}
     hasBin: true
 
-  '@prisma/prisma-schema-wasm@6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69':
-    resolution: {integrity: sha512-3N7czqak9gnE0NnzIaCjAgfA974QVII2MgT5uMe4NR3KmdrAEwtKRbkcdi8m3V2dXUPFpFXoCWjHiyC/3Qvg4A==}
+  '@prisma/prisma-schema-wasm@6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7':
+    resolution: {integrity: sha512-DGGj/SO+VeX73RM6zynkd2witaTfQlcNfAiLiIDgl+i3W8IeOTigEtUCmPEHcgisfKHKwLx1cMf8QkI6QRet0g==}
 
-  '@prisma/query-engine-wasm@6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69':
-    resolution: {integrity: sha512-6eD5jX2u4uh+eudmiOyjYJR1j+2wQuVtTx+B7KE/H270LmNrpsVdRbSc1xDANzghxn2vML54wTbP/TY1Qgy0WQ==}
+  '@prisma/query-engine-wasm@6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7':
+    resolution: {integrity: sha512-yCBcivkmzyF6xM//l46yb7Sun15u8d5Nht7NLVQgLNFhqbeyiLAs/3TfUhuD60CLhuHYtwfzFTFXE12CTOBMYw==}
 
   '@prisma/studio-common@0.503.0':
     resolution: {integrity: sha512-YLI4uf8hNIg5RaX7lPPSH6qLeSknygMB/2aEqfnWA1kWCHvkTkYEtSoSXLEAIbVc0LWWDawCcDPxFH12v6oSnA==}
@@ -6559,7 +6549,7 @@ packages:
     engines: {node: '>=0.6.19'}
 
   string-hash@1.1.3:
-    resolution: {integrity: sha512-kJUvRUFK49aub+a7T1nNE66EJbZBMnBgoC1UbCZ5n6bsZKBRga4KgBRTMn/pFkeCZSYtNeSyMxPDM0AXWELk2A==}
+    resolution: {integrity: sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=}
 
   string-length@4.0.2:
     resolution: {integrity: sha512-+l6rNN5fYHNhZZy41RXsYptCjA2Igmq4EG7kZAYFQI1E1VTXarr6ZPXBg6eq7Y6eK4FEhY6AJlyuFIb/v/S0VQ==}
@@ -8406,10 +8396,6 @@ snapshots:
       rimraf: 3.0.2
     optional: true
 
-  '@opentelemetry/api-logs@0.55.0':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-
   '@opentelemetry/api-logs@0.56.0':
     dependencies:
       '@opentelemetry/api': 1.9.0
@@ -8424,18 +8410,6 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/semantic-conventions': 1.28.0
-
-  '@opentelemetry/instrumentation@0.55.0(@opentelemetry/api@1.9.0)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.55.0
-      '@types/shimmer': 1.2.0
-      import-in-the-middle: 1.8.1
-      require-in-the-middle: 7.2.0
-      semver: 7.6.3
-      shimmer: 1.2.1
-    transitivePeerDependencies:
-      - supports-color
 
   '@opentelemetry/instrumentation@0.56.0(@opentelemetry/api@1.9.0)':
     dependencies:
@@ -8501,13 +8475,13 @@ snapshots:
 
   '@planetscale/database@1.18.0': {}
 
-  '@prisma/engines-version@6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69': {}
+  '@prisma/engines-version@6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7': {}
 
   '@prisma/mini-proxy@0.9.5': {}
 
-  '@prisma/prisma-schema-wasm@6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69': {}
+  '@prisma/prisma-schema-wasm@6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7': {}
 
-  '@prisma/query-engine-wasm@6.2.0-14.4123509d24aa4dede1e864b46351bf2790323b69': {}
+  '@prisma/query-engine-wasm@6.3.0-2.integration-sql-nested-transactions5-9a074425ccc05b5ec12b88ec141ba5dea21472b7': {}
 
   '@prisma/studio-common@0.503.0':
     dependencies:
