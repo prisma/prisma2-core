@@ -74,7 +74,6 @@ export function getDownloadUrl({
 
   // eslint-disable-next-line @typescript-eslint/no-unsafe-enum-comparison
   if (binaryName === BinaryType.QueryEngineLibrary) {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-enum-comparison
     binaryName = getNodeAPIName(binaryTarget, 'url')
   }
 
@@ -90,7 +89,7 @@ export async function overwriteFile(sourcePath: string, targetPath: string) {
     await removeFileIfExists(targetPath)
     await fs.promises.copyFile(sourcePath, targetPath)
   } else {
-    let tempPath = `${targetPath}.tmp${process.pid}`
+    const tempPath = `${targetPath}.tmp${process.pid}`
     await fs.promises.copyFile(sourcePath, tempPath)
     await fs.promises.rename(tempPath, targetPath)
   }
